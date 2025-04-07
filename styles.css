@@ -4,8 +4,8 @@
   /* colors */
   --backgroundMain: #f8f8f8;
   --backgroundHeaderColor: lightgray;
-  --orangeColor: orange;
-  --purpleColor: purple;
+  --orangeColor: orangered;
+  --purpleColor: rebeccapurple;
   --shadowColor: hsla(0, 0%, 50%, 0.5);
   --purpleColorOpacityMid: hsla(300, 100%, 25%, 0.5);
   --purpleColorOpacityMax: hsla(300, 100%, 25%, 0.2);

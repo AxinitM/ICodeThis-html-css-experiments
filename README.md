@@ -11,7 +11,7 @@ The task was to create an HTML page using CSS.
 
 ## Screenshot
 
-![](screenshot.jpg)
+![](screenshot.png)
 
 ## Links
 

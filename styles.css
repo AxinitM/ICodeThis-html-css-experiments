@@ -1,0 +1,148 @@
+/* General section */
+
+:root {
+  /* colors */
+  --backgroundMain: #f8f8f8;
+  --backgroundHeaderColor: lightgray;
+  --orangeColor: orange;
+  --purpleColor: purple;
+  --shadowColor: hsla(0, 0%, 50%, 0.5);
+  --purpleColorOpacityMid: hsla(300, 100%, 25%, 0.5);
+  --purpleColorOpacityMax: hsla(300, 100%, 25%, 0.2);
+  --whiteColor: white;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--backgroundMain);
+}
+
+#container {
+  max-width: 90%;
+}
+
+.section-headers {
+  width: fit-content;
+  margin: 40px 0 15px;
+  padding: 5px 10px;
+  background-color: var(--backgroundHeaderColor);
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 3px 5px var(--shadowColor);
+  letter-spacing: 0.4px;
+}
+
+/* Text section */
+
+.text-par {
+  margin: 20px 0;
+}
+
+.text-par p {
+  margin: 5px 0;
+}
+
+/* Text section - Different fonts */
+.arial-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.times-new-roman-font {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Headings section */
+h1,
+h2,
+h3 {
+  margin: 10px 0;
+}
+
+/* Color section */
+
+.color-par {
+  margin-bottom: 5px;
+}
+
+/* Color section - Orange section */
+#oranged-section {
+  color: var(--orangeColor);
+}
+
+#oranged-section #orange-square {
+  width: 50px;
+  height: 50px;
+  background-color: var(--orangeColor);
+}
+
+/* Color section - Purple section */
+
+#purpled-section {
+  color: var(--purpleColor);
+}
+
+#purpled-section #purple-circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--purpleColor);
+}
+
+/* Buttons section */
+
+#buttons-section {
+  padding-bottom: 40px;
+}
+
+.buttons-par {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.btn {
+    background-color: var(--purpleColor);
+    color: var(--whiteColor);
+    border: none;
+    width: 150px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:not(.no-hover):hover {
+  background-color: var(--purpleColorOpacityMid);
+}
+
+.btn:not(.no-hover):active {
+  background-color: var(--purpleColorOpacityMax);
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .btn:not(.no-hover):active {
+      background-color: var(--purpleColor); 
+    }
+  }

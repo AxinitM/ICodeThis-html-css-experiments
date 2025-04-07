@@ -14,8 +14,8 @@ The task was to create an HTML page using CSS.
 ![](screenshot.png)
 
 ## Links
-[Basics HTML & CSS page ][https://axinitm.github.io/ICodeThis-html-css-experiments/])
-Page URL:()
+[Basics HTML & CSS page ](https://axinitm.github.io/ICodeThis-html-css-experiments/)
+
 
 ## Built with
 

@@ -4,18 +4,14 @@ This is a solution to a challenge from the website https://icodethis.com/.
 The task was to create an HTML page using CSS.
 
 ## Table of contents
-
-
-- [icodethis - Basics challenge](#icodethis---basics-challenge)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
 ## Screenshot
 
-![](./images/screenshot.jpg)
+![](screenshot.jpg)
 
 ## Links
 
